@@ -163,21 +163,55 @@
 
     </main>
 
-    <div class="modal" id="modalContato">
-<div class="modal-content">
-<span class="fechar" id="fecharModal">×</span>
-<h2>Questionário</h2>
-<p class="sucesso" id="msg">Questionário enviado com sucesso!</p>
-<form id="meuForm">
-<label>Nome</label><input type="text" required>
-<label>Email</label><input type="email" required>
-<label>Idade</label><input type="number">
-<label>Planeta Favorito</label><select><option>Terra</option><option>Marte</option><option>Saturno</option></select>
-<label>Estrela Favorita</label><select><option>Sol</option><option>Betelgeuse</option><option>Sirius</option></select>
-<label>Mensagem extra</label><textarea rows="4"></textarea>
-<button type="submit">Enviar</button>
-</form>
-</div>
+<div class="modal" id="modalContato">
+  <div class="modal-content">
+    <span class="fechar" id="fecharModal">×</span>
+    <h2>Questionário</h2>
+    <p class="sucesso" id="msg">Questionário enviado com sucesso!</p>
+
+    <form id="meuForm">
+      
+      <label>Nome</label>
+      <input type="text" required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>Telefone</label>
+      <input type="tel" placeholder="(00) 00000-0000" required>
+
+      <label>Senha</label>
+      <input type="password" required>
+
+      <label>Idade</label>
+      <input type="number">
+
+      <label>Planeta Favorito</label>
+      <select>
+        <option>Terra</option>
+        <option>Marte</option>
+        <option>Saturno</option>
+      </select>
+
+      <label>Estrela Favorita</label>
+      <select>
+        <option>Sol</option>
+        <option>Betelgeuse</option>
+        <option>Sirius</option>
+      </select>
+
+      <label>Cor favorita</label>
+      <input type="color">
+
+      <label>Foto de perfil</label>
+      <input type="file" accept="image/*">
+
+      <label>Mensagem extra</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
 </div>
 
     <footer>
